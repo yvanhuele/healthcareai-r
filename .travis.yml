@@ -12,7 +12,7 @@ matrix:
     cache: packages
     dist: trusty
     sudo: false
-    r: release
+    r: 3.4.0
     addons:
       apt:
         sources:
@@ -35,7 +35,7 @@ matrix:
     cache: packages
     osx_image: xcode8.2
     sudo: required
-    r: release
+    r: 3.4.0
     addons:
       apt:
         r_packages:
